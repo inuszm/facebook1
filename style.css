@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(236, 236, 236);
+}
+
+.fc{
+ position: absolute;
+    margin: 0rem 0rem 17rem;
+    color: #1877F2;
+}
+.utama {
+    background-color: white;
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: black 0.12rem solid;
+    box-shadow: 4px 6px 10px 0px rgba(0, 0, 0, 0.815);
+
+}
+
+.log {
+    text-align: center;
+    font-size: 14.5px;
+}
+  
+  .in input::placeholder {
+    color: black;
+  }
+
+  .in i {
+    /* position: absolute; */
+    /* left: 195px; */
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+    font-size: 18px;
+    color: black;
+  }
+
+  .in {
+    width: 100%;
+    position: relative;
+    margin: 0.2rem 0;
+  }
+  
+  .in input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 0.5rem;
+    outline: none;
+  }
+  
+  .in i {
+    position: absolute;
+    right: 0.5rem; /* Geser ke kanan */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+  }
+
+  .cek {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    margin: 0.3rem 0;
+  }
+
+  .login {
+    background-color: #1877F2;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 13px;
+    padding: 0.5rem;
+    width: 100%;
+    text-decoration: none;
+    font-weight: 650;
+  }
+
+  .regis {
+    font-size: 12px;
+    justify-content: center;
+    display: flex;
+    margin: 0.3rem 0;
+  }
